@@ -22,7 +22,7 @@
 
 */
 var unirest = require('unirest'),
-    OtaHost = 'http://beta.download.cyanogenmod.org'; // Place here you OTA Server Url
+    OtaHost = 'http://www.drdevs.com/devs/teamliquid/ota/CyanogenModOTA/api'; // Place here you OTA Server Url
 
 var getCMList = function(){
     unirest
@@ -35,7 +35,7 @@ var getCMList = function(){
     .send({
         'method' : 'get_all_builds',
         'params' : {
-            'device' : 'i9300',
+            'device' : 'falcon',
             'channels': [
                 'stable',
                 'snapshot',
