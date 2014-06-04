@@ -22,7 +22,7 @@
 
 */
 var unirest = require('unirest'),
-    OtaHost = 'http://www.drdevs.com/devs/teamliquid/ota/CyanogenModOTA/api'; // Place here you OTA Server Url
+    OtaHost = 'http://www.drdevs.com/devs/teamliquid/ota/CyanogenModOTA'; // Place here you OTA Server Url
 
 var getCMList = function(){
     unirest
